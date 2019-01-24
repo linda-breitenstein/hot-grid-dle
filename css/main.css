@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   line-height: 1.3em;
 }
 
@@ -31,13 +31,14 @@ body {
   position: relative;
   margin: 0;
 }
+
 .absolute {
   position: absolute;
   left: .5em;
   bottom: .5em;
-  padding: .5rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, .5);
   color: #fff;
-  border-radius:.3em;
+  border-radius: .4em;
   max-width: 15em;
 }
